@@ -1,0 +1,34 @@
+# Imaging data and derived geometry: never committed. Regenerate with scripts/.
+data/
+*.nrrd
+*.seg.nrrd
+*.nii
+*.nii.gz
+*.dcm
+*.stl
+*.obj
+*.ply
+*.vtk
+*.vtp
+*.vtu
+*.mrb
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private working files: interview prep and session tracking stay local.
+CLAUDE.md
+PROGRESS.md
+notes/interview.md
+notes/lab-context.md
+
+# Tooling
+.claude/
+.codex/
+.vscode/
+.idea/
+.env
+*.zip

@@ -1,0 +1,6 @@
+# Standalone venv for the pure-geometry library (vesselgeom) and its tests.
+# Code that runs inside Slicer uses Slicer's bundled Python and VTK instead.
+vtk>=9.3
+numpy>=1.26
+pytest>=8
+matplotlib>=3.8
